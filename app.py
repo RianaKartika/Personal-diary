@@ -1,6 +1,6 @@
 import os
 from os.path import join, dirname
-from doteny import load_dotenv
+from dotenv import load_dotenv
 
 from flask import Flask, render_template, jsonify, request
 from pymongo import MongoClient
